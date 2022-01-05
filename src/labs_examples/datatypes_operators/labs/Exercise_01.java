@@ -15,7 +15,11 @@ package labs_examples.datatypes_operators.labs;
 public class Exercise_01 {
 
     public static void main(String[] args) {
-
+        int a = 10;
+        double b = 42.34;
+        float c = 34.56f;
+        System.out.println("The int a has a value of " + a + ",the double b has a value of " + b
+               + ", and the float c has a value of " + c);
         // write code here
 
     }

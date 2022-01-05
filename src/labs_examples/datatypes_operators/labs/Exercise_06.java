@@ -11,7 +11,10 @@ package labs_examples.datatypes_operators.labs;
 public class Exercise_06 {
 
     public static void main(String[] args) {
-
+        Double surfaceArea = 2 * 3.14 * 3.14 * 3.14 + 2 * 3.14 * 3.14 * 5;
+        System.out.println ("The surface area of the cylinder is " + surfaceArea);
+        Double volume = 3.14 * 3.14 * 3.14 * 5;
+        System.out.println ("The volume of the cylinder is " + volume);
         // write code here
 
     }
