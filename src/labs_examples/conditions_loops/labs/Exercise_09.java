@@ -8,4 +8,15 @@ package labs_examples.conditions_loops.labs;
  */
 
 public class Exercise_09 {
+    public static void main(String[] args) {
+        int x = 5;
+        while (x < 100) {
+            System.out.println(x);
+            if (x % 3 == 0) {
+                System.out.println("done!");
+                break;
+            }
+            x += 2;
+        }
+    }
 }

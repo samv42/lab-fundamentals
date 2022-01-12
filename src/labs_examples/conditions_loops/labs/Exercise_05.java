@@ -1,5 +1,7 @@
 package labs_examples.conditions_loops.labs;
 
+import java.util.Scanner;
+
 /**
  * Conditions and Loops Exercise 5: Calculator
  *
@@ -16,4 +18,31 @@ package labs_examples.conditions_loops.labs;
  */
 
 public class Exercise_05 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a number between 1 and 1,000,000,000: ");
+        int number = scanner.nextInt();
+        System.out.print("Enter a second number between 1 and 1,000,000,000: ");
+        int number2 = scanner.nextInt();
+        int x;
+        int y;
+        int sum = 0;
+        if (number >= number2) {
+            x = number;
+            y = number2;
+        } else {
+            x = number2;
+            y = number;
+        }
+
+        for (; y <= x; y++) {
+            sum += y + x;
+            x--;
+
+
+            }
+       int avrg = number + number2 / 2;
+        System.out.println ("Sum: " + sum);
+        System.out.println ("Average: " + avrg);
+    }
 }

@@ -26,10 +26,12 @@ public class Exercise_02 {
         // write code here
         int ten = 10;
         double wide = ten;
-        System.out.println ("The double wide is equal to " + wide);
+        System.out.println("The double wide is equal to " + wide);
 
         double b = 10.5;
         int narrowB = (int) b;
-        System.out.println ("The int narrowB is equal to " + narrowB);
+        System.out.println("The int narrowB is equal to " + narrowB);
+        int i = 10;
+
     }
 }

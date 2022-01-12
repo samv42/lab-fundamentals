@@ -22,5 +22,15 @@ package labs_examples.conditions_loops.labs;
  */
 
 public class Exercise_11 {
+    public static void main(String[] args) {
+        for (int x = 1; x < 11; x++) {
+            int y = 1;
+            while (y < 11) {
+                System.out.print ("!" + x * y + "!");
+                y++;
+            }
+            System.out.println (" ");
+        }
+    }
 
 }

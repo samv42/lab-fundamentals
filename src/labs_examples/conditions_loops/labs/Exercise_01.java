@@ -1,5 +1,6 @@
 package labs_examples.conditions_loops.labs;
 
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 /**
@@ -24,6 +25,10 @@ public class Exercise_01 {
         int number = scanner.nextInt();
 
         // write completed code here
-
+        if (number % 2 == 0) {
+            System.out.println ("number is even.");
+        } else {
+            System.out.println ("number is odd.");
+        }
     }
 }
