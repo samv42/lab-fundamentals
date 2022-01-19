@@ -9,5 +9,14 @@ package labs_examples.arrays.labs;
  */
 
 public class Exercise_05 {
+    public static void main(String[] args) {
+        int[] reverse = new int [10];
+        for(int i = 0; i < reverse.length; i++){
+            reverse[i] = i * 2;
+        }
+        for(int x = 9; x >= 0; x -= 2){
+            System.out.println(reverse[x] + " ");
+        }
+    }
 
 }

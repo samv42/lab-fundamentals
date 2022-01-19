@@ -9,5 +9,17 @@ package labs_examples.arrays.labs;
  */
 
 public class Exercise_04 {
+    public static void main(String[] args) {
+        int [][] irregular = {
+                {20, 23},
+                {27, 31, 34}
+        };
+        for (int[] outer : irregular) {
+            for (int inner : outer) {
+                System.out.print(inner + " ");
+            }
+            System.out.println("");
+        }
+    }
 
 }

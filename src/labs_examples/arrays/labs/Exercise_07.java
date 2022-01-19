@@ -9,5 +9,19 @@ package labs_examples.arrays.labs;
  *      shows a list of methods.
  *
  */
+import java.util.ArrayList;
 public class Exercise_07 {
+    public static void main(String[] args){
+        ArrayList<String> greetings = new ArrayList();
+        greetings.add("Hello");
+        greetings.add("Bonjour");
+        greetings.add("Shalom");
+        greetings.remove("Hello");
+
+        for(String list : greetings){
+            System.out.println(list);
+        }
+        greetings.clear();
+        boolean empty = greetings.isEmpty();
+    }
 }
