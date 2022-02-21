@@ -10,6 +10,7 @@ public class Exercise_2 {
                 boolean isPrime = prime(13);
                 int[] array = {5, 4, 3, 7};
                 int[][] array2 = {largeSmall(array)};
+
                 reverseArray(array); //part 8
                 ArrayList<Integer> numDivisible = new ArrayList(divisbleNums(10, 2, 4));
                 System.out.println("Number of divisible numbers: " + numDivisible.size());

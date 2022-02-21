@@ -2,7 +2,8 @@
 Without running the code below, please tell me what will print. Why?
 
 
-
+Answer: Parent called
+Child called
 
 public class InheritanceTest
 {
