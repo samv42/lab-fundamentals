@@ -8,3 +8,11 @@ package labs_examples.generics.labs;
  *          dynamic usage.
  */
 
+public class Exercise_01{
+    public static void main(String[] args) {
+        Generic_01 obj = new Generic_01("Hello", "Goodbye");
+        Generic_01 obj2 = new Generic_01(5, 8);
+        Generic_01 obj3 = new Generic_01('r', '3');
+        System.out.println(obj.getVal());
+    }
+}

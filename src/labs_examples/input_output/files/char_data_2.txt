@@ -11,4 +11,4 @@ The value of a program is proportional to the weight of its output.
 Program complexity grows until it exceeds the capabilities of the programmer who must maintain it.
 Any non-trivial program contains at least one bug.
 Undetectable errors are infinite in variety, in contrast to detectable errors, which by definition are limited.
-Adding manpower to a late software project makes it later!
+Adding manpower to a late software project makes it later.
