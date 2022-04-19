@@ -1,5 +1,6 @@
 package labs_examples.datastructures.linkedlist.labs;
-
+import java.util.*;
+import java.util.ListIterator;
 /**
  *      LinkedLists - Exercise_01
  *
@@ -21,3 +22,30 @@ package labs_examples.datastructures.linkedlist.labs;
  *      14) listIterator()
  *      15) clear()
  */
+class Exercise_01{
+    public static void main(String[] args) {
+        LinkedList<String> list = new LinkedList<>();
+        ArrayList<String> words = new ArrayList<>();
+        list.add("Hello");
+        words.add("Goodbye");
+        words.add("another word");
+        words.add("more words");
+        list.addAll(words);
+        list.addFirst("First");
+        list.addLast("Last");
+        System.out.println(list.getFirst());
+        System.out.println(list.getLast());
+        System.out.println(list.get(5));
+        list.set(3, "new word");
+        list.push("Bonjour");
+        list.pop();
+        list.remove(1);
+        boolean goodbye = list.contains("Goodbye");
+
+        ListIterator printList = list.listIterator(2);
+        while(printList.hasNext()){
+            System.out.println(printList.next());
+        }
+        list.clear();
+    }
+}

@@ -11,3 +11,19 @@ package labs_examples.datastructures.linkedlist.labs;
  *      Also, instead of using the index in the get() and remove() methods, these methods should
  *      get() and remove() based by the Node's value, not it's index.
  */
+class Exercise_02{
+    public static void main(String[] args) {
+        MyLinkedList<String> list = new MyLinkedList("hello", "bonjour");
+        list.add("third");
+        System.out.println(list.get("third"));
+        list.remove("bonjour");
+        list.remove("hello");
+        list.remove("third");
+        System.out.println(list.get("third"));
+        list.push("First");
+
+        list.printAll();
+        list.clear();
+        System.out.println(list.get("First"));
+    }
+}
